@@ -27,6 +27,5 @@ class Application
     {
         $this->route->setPrefix($this->settings->getRootPath());
         $this->route->start();
-
     }
 }
